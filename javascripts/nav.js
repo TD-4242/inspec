@@ -1,0 +1,1 @@
+const $navLinks=$(".main-nav--links"),$navToggle=$(".main-nav--toggle"),navBreakpoint=730;$navToggle.click(function(){$(this).toggleClass("is-active"),$navLinks.slideToggle()}),$(window).resize(function(){$(window).width()>=navBreakpoint&&($navToggle.removeClass("is-active"),$navLinks.attr("style",""))});
